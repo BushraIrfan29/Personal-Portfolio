@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #fff; /* White background */
+            color: #333; /* Dark text color for readability */
+        }
+    
+        .navbar {
+            background-color: #eeb37f; /* Light orange navbar */
+            margin-bottom: 10px;
+        }
+    
+        .navbar-brand {
+            color: #333 !important; /* Dark text for navbar brand */
+            font-weight: bold;
+        }
+    
+        .navbar-brand:hover {
+            color: #e67e22 !important; /* Darker orange on hover */
+        }
+    
+        .profile-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+    
+        .profile-image {
+            display: block;
+            margin: 0 auto;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 5px solid #ffba75; /* Light orange border */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    
+        .introduction {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: #333;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #ffedd5; /* Light orange background */
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #ffba75; /* Light orange border */
+        }
+    
+        #contact {
+            margin-top: 10px;
+        }
+    
+        footer {
+            background-color: #ffba75; /* Light orange footer */
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+    
+        .section-title {
+            margin-bottom: 30px;
+            text-align: center;
+            color: #e67e22; /* Darker orange for section titles */
+        }
+    
+        .skills-list,
+        .hobbies-list,
+        .studies-list {
+            list-style: none;
+            padding: 0;
+        }
+    
+        .skills-list li,
+        .hobbies-list li,
+        .studies-list li {
+            background-color: #ffedd5; /* Light orange background */
+            color: #333; /* Dark text */
+            padding: 10px;
+            border: 1px solid #ffba75; /* Light orange border */
+            margin-bottom: 5px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+    
+        .skills-list li:hover,
+        .hobbies-list li:hover,
+        .studies-list li:hover {
+            background-color: #ffc99f; /* Slightly darker orange on hover */
+            color: #333;
+            transform: scale(1.05); /* Slight zoom effect */
+        }
+    
+        .btn-light {
+            background-color: #ffedd5; /* Light orange background */
+            color: #333;
+            border: 1px solid #ffba75; /* Light orange border */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+    
+        .btn-light:hover {
+            background-color: #ffc99f; /* Slightly darker orange */
+            color: #333;
+        }
+    
+        a {
+            color: #e67e22; /* Darker orange for links */
+            transition: color 0.3s ease;
+        }
+    
+        a:hover {
+            color: #d35400; /* Even darker orange on hover */
+        }
+    </style>
+    
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container d-flex justify-content-center">
+            <a class="navbar-brand" href="#" style="font-size: 3rem; font-weight: bold;">BUSHRA IRFAN</a>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-3">
+        <div class="text-center mb-4">
+            <p><strong>Email:</strong> <a  href="mailto:bushrairfan2103@gmail.com">bushrairfan2103@gmail.com</a></p>
+            <p><strong>Phone:</strong> 0315-
+                2831976</p>
+            <p><strong>Address:</strong> Karachi, Pakistan</p>
+            <p><strong>LinkedIn:</strong> 
+                <a href="https://www.linkedin.com/in/bushra-irfan-746b62283/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">linkedin.com/in/your-linkedin-profile</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <div class="profile-section">
+        <img src="./image/WhatsApp Image 2024-12-06 at 3.09.16 PM.jpeg" alt="Profile Image" class="profile-image">
+        <p class="introduction">
+            Hello! I'm <strong>Bushra Irfan</strong>, a passionate web developer with expertise in creating dynamic, responsive websites.
+            I specialize in HTML, CSS, JavaScript, and modern frameworks, always striving to turn ideas into impactful digital experiences.
+        </p>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container my-5">
+        <h2 class="section-title">My Projects</h2>
+        <div class="row">
+            <div class="col-md-6" >
+                <h4>Project 1: Shopping Cart</h4>
+                <p> A web-based shopping cart application developed using JavaScript and localStorage to add, remove, and persist items in a cart.</p>
+                <a href="https://bushrairfan29.github.io/Shopping-Cart/" target="_blank" class="btn btn-light">View Project</a>
+            </div>
+            <div class="col-md-6">
+                <h4>Project 2: Movie App </h4>
+                <p>A dynamic movie app utilizing an API to fetch and display trending movies, including search functionality and user ratings.</p>
+                <a href="https://bushrairfan29.github.io/Movie_App/" target="_blank" class="btn btn-light">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container my-5">
+        <h2 class="section-title">Skills, Hobbies & Studies</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Skills</h4>
+                <ul class="skills-list">
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Hobbies</h4>
+                <ul class="hobbies-list">
+                    <li>Photography</li>
+                    <li>Traveling</li>
+                    <li>Reading</li>
+                    <li>Gaming</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Studies</h4>
+                <ul class="studies-list">
+                    <li>Intermediate from St.Lawerane Govt.Degree Girls College</li>
+                    <li>Bachelor's in Computer Science from MAJU</li>
+                    <li>Mobile and Web Development course from SaylaniC</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bushra Irfan. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
